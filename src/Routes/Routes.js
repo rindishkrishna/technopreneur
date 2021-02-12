@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route, Switch ,BrowserRouter} from "react-router-dom";
 import { Hackathonpage } from "../Pages/HackathonPage";
 import { Landingpage } from "../Pages/LandingPage";
