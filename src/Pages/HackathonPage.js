@@ -1,14 +1,9 @@
-import React from 'react';
+import React from "react";
 
 export function Hackathonpage(props) {
-    
-
-    return (
-        <>
-            <h1>
-            Hackathonpage
-            </h1>
-        </>
-    )
+  return (
+    <>
+      <h1>Hackathonpage</h1>
+    </>
+  );
 }
-
