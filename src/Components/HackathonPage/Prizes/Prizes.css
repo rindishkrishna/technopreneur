@@ -1,0 +1,23 @@
+.row .col.m4{
+    width: 66.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.prize-div {
+  text-align: center;
+}
+
+.prize-img {
+  width: 90px;
+}
+
+.offset {
+  margin-top: 220px;
+}
+
+.prize-heading {
+    margin-left: -10px ; 
+    font-size: 40px;
+}
