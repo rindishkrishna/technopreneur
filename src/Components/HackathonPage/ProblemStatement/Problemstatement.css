@@ -1,0 +1,44 @@
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 70%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.row .col.m8 {
+  width: 66.6666666667%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+.problem-content-div {
+  margin-left: -10px;
+}
+
+.problem-img-div {
+    text-align: center;
+}
+
+.problem-heading {
+padding-top: 30px;
+  margin-left: -10px;
+  font-size: 40px;
+}
+
+.problem-text {
+  font-size: 19px;
+}
+
+.problem-img {
+    padding: 20px;
+    padding-left: 130px;
+    padding-top: 75px;
+    height: 250px;
+}

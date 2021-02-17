@@ -4,3 +4,9 @@
 .secondary-color {
   background-color: #cc0045;
 }
+
+#hackathonPage {
+  background-color: #002874;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
