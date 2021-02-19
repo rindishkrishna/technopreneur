@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 70%;
+  padding: 40px 0;
+}
+
+.faqs {
+  font-size: 40px;
+}
+
+.first,
+.second,
+.third {
+  margin: 40px 30px;
+}
