@@ -42,3 +42,27 @@ padding-top: 30px;
     padding-top: 75px;
     height: 250px;
 }
+
+@media (max-width: 600px) {
+  .row .col.m8 {
+    width: 45.666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .problem-text {
+    font-size: 16px;
+  }
+  .problem-heading {
+    font-size: 35px;
+  }
+  .problem-img {
+    padding: 0px;
+    padding-left: 14px;
+    padding-top: 240px;
+    height: 165px;
+  }
+  .container {
+    width: 83%;
+  }
+}
