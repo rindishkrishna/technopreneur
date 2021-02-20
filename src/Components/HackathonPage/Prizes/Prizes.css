@@ -1,8 +1,8 @@
-.row .col.m4{
-    width: 66.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+.row .col.m4 {
+  width: 66.6666666667%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 
 .prize-div {
@@ -18,8 +18,8 @@
 }
 
 .prize-heading {
-    margin-left: -10px ; 
-    font-size: 40px;
+  margin-left: -10px;
+  font-size: 40px;
 }
 
 @media (max-width: 600px) {
