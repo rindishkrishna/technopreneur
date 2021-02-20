@@ -51,16 +51,13 @@
     right: auto;
   }
   .problem-text {
-    font-size: 16px;
+    font-size: 18px;
   }
   .problem-heading {
     font-size: 35px;
   }
   .problem-img {
-    padding: 0px;
-    padding-left: 14px;
-    padding-top: 240px;
-    height: 165px;
+    display:none
   }
   .container {
     width: 83%;
