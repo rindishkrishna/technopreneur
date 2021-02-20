@@ -3,7 +3,7 @@ import "./Faqs.css";
 
 const Faqs = () => {
   return (
-    <div className="container">
+    <div className="container" id="faq">
       <h3 className="faqs">FAQ</h3>
       <div className="faq-text">
         <p>

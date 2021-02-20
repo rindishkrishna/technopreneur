@@ -4,7 +4,7 @@ import "./Sponsors.css";
 
 const Sponsors = () => {
   return (
-    <div className="container">
+    <div className="container" id="sponsors">
       <h1 className="heading">Sponsors</h1>
       <div className="row">
         <div className="first">
