@@ -7,7 +7,7 @@ const Sponsors = () => {
   return (
     <div className="container">
       <div className="tick">
-        <img src={tick} alt=""></img>
+        <img src={tick} alt="" height="100px" width="100px"></img>
       </div>
       <div className="content">
         <h3 className="sponsor-heading">Sponsors</h3>

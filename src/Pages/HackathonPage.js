@@ -7,7 +7,6 @@ import Sponsors from "../Components/HackathonPage/Sponsors/Sponsors";
 export function Hackathonpage(props) {
   return (
     <div id="hackathonPage">
-      <h1>Hackathonpage</h1>
       <ProblemStatement />
       <Prizes />
       <Faqs />
