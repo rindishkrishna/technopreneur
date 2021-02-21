@@ -6,7 +6,7 @@ import "./Prizes.css";
 
 const Prizes = () => {
   return (
-    <div className="container">
+    <div className="container prize-container">
       <h3 className="prize-heading">Prizes</h3>
       <div className="row">
         <div className="col m4 prize-div offset">

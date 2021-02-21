@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+#first,
+#second,
+#third {
+  flex: 1;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: left;
+}

@@ -1,11 +1,17 @@
 import React from "react";
-import AboutComponent from '../Components/LandingPage/About/About';
+import { BrowserRouter } from "react-router-dom";
+import { Navbar } from "../Components/LandingPage/Navbar/Navbar";
+import Sponsors from "../Components/LandingPage/Sponsors/Sponsors";
 
 export function Landingpage(props) {
   return (
-    <>
-      <h1>landing page</h1>
-      <AboutComponent/>
-    </>
+    <div>
+      <BrowserRouter>
+      <Navbar />
+      </BrowserRouter>
+      <div id="landingPage">
+      <Sponsors />
+      </div>
+    </div>
   );
 }

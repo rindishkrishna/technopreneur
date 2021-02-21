@@ -42,3 +42,24 @@
   padding-top: 75px;
   height: 250px;
 }
+
+@media (max-width: 600px) {
+  .row .col.m8 {
+    width: 45.666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .problem-text {
+    font-size: 18px;
+  }
+  .problem-heading {
+    font-size: 35px;
+  }
+  .problem-img {
+    display:none
+  }
+  .container {
+    width: 83%;
+  }
+}

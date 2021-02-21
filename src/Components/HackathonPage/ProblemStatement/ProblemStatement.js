@@ -4,8 +4,8 @@ import "./Problemstatement.css";
 
 const ProblemStatement = () => {
   return (
-    <div className="row container">
-      <div className="col s12 m8">
+    <div className="row container" id="problemstatement">
+      <div className="col m8">
         <h3 className="problem-heading">Problem Statement</h3>
         <div className="problem-content-div">
           <p className="problem-text">
@@ -18,7 +18,7 @@ const ProblemStatement = () => {
           </p>
         </div>
       </div>
-      <div className="col s12 m4 problem-img-div">
+      <div className="col m4 problem-img-div">
         <img
           src={problemImg}
           className="problem-img responsive-img"
