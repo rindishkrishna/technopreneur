@@ -8,10 +8,9 @@ import { FaTwitter }from 'react-icons/fa';
 const TopSection = () => {
     return ( 
         <div id="home"> 
-          <div>
             <img src={ logo } className="logo" alt="" />
             <img src={ rocketImg } className="ontop" alt="" />
-            <div>
+            <div className="combine">
                 <h4 className="Date">Date</h4>
                 <div className="social_media">
                 <a href="https://www.instagram.com/iedcmec/?hl=en" target="_blank" rel="noopener noreferrer" className="media_page">
@@ -22,10 +21,8 @@ const TopSection = () => {
                 </a>
                 <a href="https://twitter.com/iedc_mec" target="_blank" rel="noopener noreferrer" className="media_page">
                     <FaTwitter />
-                </a>
-                
+                </a>                
                 </div>
-            </div>
           </div>
         </div>
     )
