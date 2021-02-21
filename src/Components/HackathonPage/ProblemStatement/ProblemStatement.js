@@ -4,7 +4,7 @@ import "./Problemstatement.css";
 
 const ProblemStatement = () => {
   return (
-    <div className="row container">
+    <div className="row container" id="problemstatement">
       <div className="col m8">
         <h3 className="problem-heading">Problem Statement</h3>
         <div className="problem-content-div">
