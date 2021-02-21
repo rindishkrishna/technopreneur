@@ -1,0 +1,101 @@
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    background-color: #002874;
+    color: #fff;
+  }
+  
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+    margin-top: -20px;
+  }
+.headerContent {
+    align-self: center;
+}
+.header {
+    font-size: 40px;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.aboutContent {
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-self: center;
+}
+
+.aboutVector {
+    width: 20%;
+}
+
+.vector {
+    max-width: 80%;
+    height: auto;
+}
+
+.aboutText {
+    width: 60%;
+}
+
+.textStyle {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.wave-d{
+    width: 100%;
+}
+@media only screen and (max-width: 1100px) {
+
+    .row {
+        margin-bottom: -70px;
+    }
+ 
+ }
+@media only screen and (max-width: 850px) {
+
+    .textStyle { 
+       font-size: 22px; 
+    }
+    .row {
+        margin-bottom: -60px;
+    }
+    .vector {
+        max-width: 100%;
+    }
+    .aboutVector {
+        width: 35%;
+    }
+ 
+ }
+@media only screen and (max-width: 650px) {
+
+    .textStyle { 
+       font-size: 18px; 
+    }
+    .row {
+        margin-bottom: -30px;
+    }
+ 
+ }
+
+ @media only screen and (max-width: 350px) {
+
+    .textStyle { 
+       font-size: 18px; 
+    }
+    .row {
+        margin-bottom: -20px;
+    }
+ 
+ }
