@@ -7,7 +7,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitter }from 'react-icons/fa';
 const TopSection = () => {
     return ( 
-        <div className="container" id="home"> 
+        <div id="home"> 
           <div>
             <img src={ logo } className="logo" alt="" />
             <img src={ rocketImg } className="ontop" alt="" />
