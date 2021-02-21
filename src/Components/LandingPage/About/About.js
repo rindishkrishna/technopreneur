@@ -3,6 +3,7 @@ import "./About.css";
 import vector from '../../../Assets/Saly-15.png'
 import downWave from '../../../Assets/Vector-3.png'
 import upWave from '../../../Assets/Vector-2.png'
+import upWaves from '../../../Assets/Group-5.png'
 import topVector from '../../../Assets/Saly-13.png'
 import meet from '../../../Assets/meeting.jpeg'
 
@@ -43,7 +44,7 @@ export default function AboutComponent(props){
                 
             </div>
             </div>
-            <img src={downWave} className="wave-d" alt="wavedown"/>
+            <img src={upWaves} className="wave-d" alt="wavedown"/>
         </div>
     )
 }
