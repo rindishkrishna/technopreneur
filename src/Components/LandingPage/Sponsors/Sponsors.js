@@ -1,6 +1,8 @@
 import React from "react";
 import sponsorImg from "../../../Assets/grey-square.jpg";
 import tick from "../../../Assets/Saly-26.png";
+import downWave from '../../../Assets/Vector-3.png'
+import upWave from '../../../Assets/Vector-2.png'
 import "./Sponsors.css";
 
 const Sponsors = () => {

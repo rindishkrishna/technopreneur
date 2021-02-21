@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "../Components/LandingPage/Navbar/Navbar";
 import Sponsors from "../Components/LandingPage/Sponsors/Sponsors";
 import Events from "../Components/LandingPage/Events/Events";
+import AboutComponent from "../Components/LandingPage/About/About";
 
 export function Landingpage(props) {
   return (
@@ -10,7 +11,9 @@ export function Landingpage(props) {
       <BrowserRouter>
         <Navbar />
       </BrowserRouter>
+      <AboutComponent/>
       <div id="landingPage">
+        
         <Events />
         <Sponsors />
       </div>

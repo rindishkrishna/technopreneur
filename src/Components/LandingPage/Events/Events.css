@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.eve-container {
+  background-color: #cc0045;
+}
+
 .button {
   background-color: #cc0045; /* Green */
   border: none;
