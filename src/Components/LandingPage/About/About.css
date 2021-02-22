@@ -1,12 +1,12 @@
-.container {
+.about-container {
     margin: 0 auto;
-    margin-top: -20px;
     max-width: 1280px;
     width: 100%;
     background-color: #002874;
     color: #fff;
-}
-
+    padding-top: 40px;
+  }
+  
 .col {
     display: flex;
     flex-direction: column;
@@ -20,10 +20,11 @@
 }
 
 .header {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
+    margin-bottom: 40px;
 }
 
 .aboutContent {
@@ -57,6 +58,7 @@
 .wave-d {
     width: 100%;
     margin-bottom: -10px;
+    margin-top: -5px;
 }
 
 .topRow {
@@ -70,7 +72,7 @@
 
 .outerTop {
     position: absolute;
-    top: 20%;
+    bottom: -250px;
     width: 100%;
     height: 35%;
 }
@@ -119,11 +121,14 @@
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px){
     .outerTop {
-        top: 15%;
-        height: 25%;
+        bottom: -110px;
     }
+}
+
+@media only screen and (max-width: 850px) {
+    
     .meet-outer {
         margin-left: 40px;
     }
@@ -148,6 +153,9 @@
     }
     .aboutVector {
         width: 35%;
+    }
+    .header {
+        font-size: 35px;
     }
 }
 
@@ -174,6 +182,10 @@
     .outerTop {
         top: 12%;
         height: 15%;
+    }
+
+    .header {
+        font-size: 28px;
     }
 }
 

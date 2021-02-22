@@ -6,7 +6,7 @@
 
 .sponsor-heading {
   text-align: center;
-  font-size: 55px;
+  font-size: 45px;
   margin-bottom: 40px;
   padding: 30;
   width: 100%;
@@ -18,6 +18,11 @@
   margin-right: 50px;
 }
 
+.tickImg {
+  width: 12%;
+  height: auto;
+}
+
 .row {
   margin-top: 100px;
   display: flex;
@@ -26,9 +31,32 @@
   justify-content: space-between;
 }
 
+.content {
+  padding-bottom: 40px;
+}
+
 #first,
 #second,
 #third,
 #fourth {
   flex: 1;
 }
+
+@media only screen and (max-width : 850px) {
+  .sponsor-heading {
+    font-size: 35px;
+  }
+  .tickImg {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width : 450px) {
+  .sponsor-heading {
+    font-size: 28px;
+  }
+  .tickImg {
+    width: 20%;
+  }
+}
+

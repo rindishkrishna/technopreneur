@@ -10,6 +10,9 @@
 .eve-container {
   background-color: #cc0045;
 }
+.eve-heading {
+  font-size: 45px;
+}
 
 .button {
   background-color: #cc0045; /* Green */
@@ -38,4 +41,16 @@
 .button1:hover {
   background-color: #f44336;
   color: white;
+}
+
+@media only screen and (max-width : 850px) {
+  .eve-heading {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width : 450px) {
+  .eve-heading {
+    font-size: 28px;
+  }
 }
