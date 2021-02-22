@@ -9,11 +9,11 @@ const ContactUs = () => {
     <div className="contact-container" id="contactUs">
       <div className="cu-contents">
           <div>
-            <p>Contact Us</p>
+            <p className="heading">Contact Us</p>
           </div>
           <div>
-            <div>
-                <p>Follow Us</p>
+            <div style={{"padding-bottom":"20px"}}>
+                <p className="heading">Follow Us</p>
             </div>
             <div>
             <div className="social_links">
