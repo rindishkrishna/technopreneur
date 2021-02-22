@@ -3,11 +3,16 @@ import sponsorImg from "../../../Assets/grey-square.jpg";
 import tick from "../../../Assets/Saly-26.png";
 import downWave from '../../../Assets/Vector-3.png'
 import upWave from '../../../Assets/Vector-2.png'
+import upWaves from '../../../Assets/Group-5.png'
 import "./Sponsors.css";
 
 const Sponsors = () => {
   return (
-    <div className="container" id="sponsors">
+    <div>
+    <div className="top-section">
+      <img src={upWave} className="wave-d" alt="waveup"/>
+    </div>
+    <div className="about-container" id="sponsors">
       <div className="tick">
         <img src={tick} alt="" height="100px" width="100px"></img>
       </div>
@@ -28,6 +33,8 @@ const Sponsors = () => {
           </div>
         </div>
       </div>
+    </div>
+    <img src={upWaves} className="wave-d" alt="wavedown"/>
     </div>
   );
 };
