@@ -1,5 +1,4 @@
 .about-container {
-    margin: 0 auto;
     max-width: 1280px;
     width: 100%;
     background-color: #002874;
@@ -10,8 +9,6 @@
 .col {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: -20px;
 }
 
