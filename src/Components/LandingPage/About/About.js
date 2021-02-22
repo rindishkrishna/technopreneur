@@ -9,22 +9,9 @@ import meet from '../../../Assets/meeting.jpeg'
 
 export default function AboutComponent(props){
     return(
-        <div>
-        <div className="top-section">
+        <div className="about">
+        <div className="top-section" id="about">
             <img src={upWave} className="wave-d" alt="waveup"/>
-            <div className="outerTop">
-                <div className="topRow">
-                        <div className="meet-outer">
-                            <img src={meet} className="meet" alt="about vector"/>
-                        </div>
-                        <div className="vector-top">
-                            <button name="Register" className = "register-btn">Register</button>
-                        </div>
-                        <div className="vector-top">
-                            <img src={topVector} className="topVector" alt="about vector"/>
-                        </div>
-                </div>
-            </div>
         </div>
         <div className = "col about-container">
             <div className="headerContent">

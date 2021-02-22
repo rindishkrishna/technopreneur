@@ -23,6 +23,7 @@
 
 .navbar-item {
     display: flex;
+    align-items: center;
     justify-content: center;
     list-style: none;
     width: 100%;
@@ -37,8 +38,15 @@
     text-decoration: none;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 800px) {
     .nav-link {
         padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-link {
+        padding: 5px 5px;
+        font-size: small;
     }
 }

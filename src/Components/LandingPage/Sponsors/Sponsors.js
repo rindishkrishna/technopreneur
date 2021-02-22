@@ -14,10 +14,10 @@ const Sponsors = () => {
     </div>
     <div className="about-container" id="sponsors">
       <div className="tick">
-        <img src={tick} alt="" height="100px" width="100px"></img>
+        <img src={tick} alt="" className="tickImg"></img>
       </div>
       <div className="content">
-        <h3 className="sponsor-heading">Sponsors</h3>
+        <p className="sponsor-heading">Sponsors</p>
         <div className="row">
           <div id="first">
             <img src={sponsorImg} alt="first "></img>
