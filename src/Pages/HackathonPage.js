@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "../Components/HackathonPage/Navbar/Navbar";
+import TopSection from "../Components/HackathonPage/TopSection/TopSection";
 import ProblemStatement from "../Components/HackathonPage/ProblemStatement/ProblemStatement";
 import Prizes from "../Components/HackathonPage/Prizes/Prizes";
 import Faqs from "../Components/HackathonPage/FAQ/Faq";
@@ -12,6 +13,7 @@ export function Hackathonpage(props) {
       <BrowserRouter>
       <Navbar />
       </BrowserRouter>
+      <TopSection />
       <ProblemStatement />
       <Prizes />
       <Faqs />

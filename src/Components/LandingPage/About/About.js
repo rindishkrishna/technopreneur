@@ -10,7 +10,7 @@ import meet from '../../../Assets/meeting.jpeg'
 export default function AboutComponent(props){
     return(
         <div>
-        <div className="top-section">
+        <div className="top-section" id="about">
             <img src={upWave} className="wave-d" alt="waveup"/>
             <div className="outerTop">
                 <div className="topRow">

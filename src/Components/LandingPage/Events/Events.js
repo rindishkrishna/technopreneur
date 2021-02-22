@@ -5,7 +5,7 @@ import "./Events.css";
 
 const Events = () => {
   return (
-    <div className="eve-container">
+    <div className="eve-container" id="events">
       <div className="tick">
         <img
           src={tick}

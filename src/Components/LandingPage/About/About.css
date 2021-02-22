@@ -5,18 +5,20 @@
     width: 100%;
     background-color: #002874;
     color: #fff;
-  }
-  
+}
+
 .col {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     margin-top: -20px;
-  }
+}
+
 .headerContent {
     align-self: center;
 }
+
 .header {
     font-size: 40px;
     text-align: center;
@@ -43,7 +45,6 @@
     height: auto;
 }
 
-
 .aboutText {
     width: 60%;
 }
@@ -51,22 +52,22 @@
 .textStyle {
     font-size: 24px;
     font-weight: 400;
-    
 }
-.wave-d{
+
+.wave-d {
     width: 100%;
     margin-bottom: -10px;
 }
 
-.topRow{
-    display:flex;
+.topRow {
+    display: flex;
     flex-direction: row;
     width: 100%;
     height: 100%;
     justify-content: space-between;
-    align-items:center;
-    
+    align-items: center;
 }
+
 .outerTop {
     position: absolute;
     top: 20%;
@@ -74,7 +75,7 @@
     height: 35%;
 }
 
-.register-btn{
+.register-btn {
     min-width: 100px;
     align-self: center;
     min-height: 30px;
@@ -82,37 +83,42 @@
     height: 40%;
     font-size: 22px;
     background-color: #fff;
-    border:none;
+    border: none;
     border-radius: 8px;
 }
+
 .top-section {
     width: 100%;
 }
-.topVector{
+
+.topVector {
     max-width: 100%;
     height: auto;
 }
+
 .meet-outer {
     width: 60%;
     height: 100%;
     margin-left: 80px;
 }
+
 .meet {
     max-width: 60%;
     height: auto;
     border-radius: 22px;
     border: 9px solid #FFFFFF;
 }
+
 .vector-top {
     width: 33%;
 }
-@media only screen and (max-width: 1100px) {
 
+@media only screen and (max-width: 1100px) {
     .row {
         margin-bottom: -70px;
     }
- 
- }
+}
+
 @media only screen and (max-width: 850px) {
     .outerTop {
         top: 15%;
@@ -125,16 +131,15 @@
         max-width: 70%;
         border: 6px solid #FFFFFF;
     }
-    .topVector{
+    .topVector {
         max-width: 100%;
     }
-    .register-btn{
+    .register-btn {
         font-size: 16px;
     }
-    .textStyle { 
-       font-size: 22px; 
+    .textStyle {
+        font-size: 22px;
     }
-
     .row {
         margin-bottom: -60px;
     }
@@ -144,8 +149,8 @@
     .aboutVector {
         width: 35%;
     }
- 
- }
+}
+
 @media only screen and (max-width: 650px) {
     .outerTop {
         top: 12%;
@@ -154,29 +159,27 @@
         max-width: 75%;
         border: 3px solid #FFFFFF;
     }
-    .register-btn{
+    .register-btn {
         font-size: 16px;
     }
-    .textStyle { 
-       font-size: 18px; 
+    .textStyle {
+        font-size: 18px;
     }
     .row {
         margin-bottom: -30px;
     }
- 
- }
+}
 
- @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     .outerTop {
         top: 12%;
         height: 15%;
     }
- }
+}
 
- @media only screen and (max-width: 350px) {
-
-    .textStyle { 
-       font-size: 18px; 
+@media only screen and (max-width: 350px) {
+    .textStyle {
+        font-size: 18px;
     }
     .row {
         margin-bottom: -20px;
@@ -185,5 +188,4 @@
         top: 12%;
         height: 12%;
     }
- 
- }
+}
