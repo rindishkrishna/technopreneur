@@ -1,91 +1,82 @@
+.top-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .logo {
-    top: -80px;
-    position: relative;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rocket-date {
     display: flex;
     width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rocket-section {
+    width: 50%;
+    height: 100%;
+}
+
+.rocket-man {
+    max-width: 80%;
     height: auto;
-    z-index: 1;
-}
-
-.ontop {
-    top: -250px;
-    left: -180px;
-    display: flex;
-    width: 55%;
-    position: relative;
-    height: 350px;
-}
-
-.Date {
-    margin-left: 47%;
-    margin-top: -470px;
-    position: relative;
-    font-size: 30px;
-}
-
-.social_media {
-    margin-left: 42%;
-    margin-top: 30px;
-    margin-bottom: 150px;
-}
-
-.media_page {
-    color: #CC0045;
-    padding: 5px;
-    cursor: pointer;
-    font-size: 45px;
 }
 
 .combine {
-    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
 }
 
-@media (max-width: 540px) {
-    .logo {
-        padding-top: -30px;
-    }
-    .ontop {
-        padding-left: -200px;
-    }
+.Date {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 40px;
 }
 
-@media screen and (max-width: 650px) {
-    .ontop {
-        left: -95px;
-    }
-    .logo {
-        top: -40px;
-    }
+.social_media {
+    font-size: 45px;
+    
 }
 
-@media screen and (max-width: 780px) {
-    .social_media {
-        margin-top: 20px;
-        margin-left: 39%;
-    }
+.media_page {
+    margin-right: 20px;
+    color: #CC0045;
+}
+
+@media only screen and (max-width : 850px) {
     .Date {
-        padding-top: 1%;
-        font-size: 30px;
+        font-size: 35px;
     }
-    .ontop {
-        margin-top: 10px;
-        left: -50px;
-    }
-    .media_page {
-        font-size: 40px;
-        color: aquamarine;
-    }
-}
-
-@media screen and (min-width: 1050px) {
     .social_media {
-        margin-left: 40%;
+        font-size: 35px;
     }
+    .logo {
+        max-width: 85%;
+    }
+  }
+  
+  @media only screen and (max-width : 450px) {
     .Date {
-        margin-left: 47%;
+        font-size: 28px;
     }
-    .media_page {
-        padding: 10px;
-        font-size: 50px;
+    .social_media {
+        font-size: 28px;
     }
-}
+    .logo {
+        max-width: 100%;
+    }
+  }
+  
+  
