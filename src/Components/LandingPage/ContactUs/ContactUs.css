@@ -1,0 +1,45 @@
+.contact-container {
+    background-color: #cc0045;
+    width: 100%;
+    height: 40%;
+  }
+
+.cu-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 45px;
+}
+
+.social_links {
+    margin-left: 42%;
+    margin-top: 30px;
+    display: contents;
+}
+
+.media_link {
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 45px;
+}
+@media only screen and (max-width: 850px){
+    .media_link {
+        font-size: 35px;
+    }
+
+    .cu-contents {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .media_link {
+        font-size: 28px;
+    }
+
+    .cu-contents {
+        font-size: 24px;
+    }
+}

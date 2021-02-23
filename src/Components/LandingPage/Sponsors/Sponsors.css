@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+}
+
+.sponsor-heading {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 40px;
+  padding: 30;
+  width: 100%;
+}
+
+.tick {
+  text-align: right;
+  margin-bottom: -90px;
+  margin-right: 50px;
+}
+
+.tickImg {
+  width: 12%;
+  height: auto;
+}
+
+.row {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.content {
+  padding-bottom: 40px;
+}
+
+#first,
+#second,
+#third,
+#fourth {
+  flex: 1;
+}
+
+@media only screen and (max-width : 850px) {
+  .sponsor-heading {
+    font-size: 35px;
+  }
+  .tickImg {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width : 450px) {
+  .sponsor-heading {
+    font-size: 28px;
+  }
+  .tickImg {
+    width: 20%;
+  }
+}
+
