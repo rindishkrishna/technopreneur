@@ -12,12 +12,17 @@ const Sponsors = () => {
     <div className="top-section">
       <img src={upWave} className="wave-d" alt="waveup"/>
     </div>
-    <div className="about-container" id="sponsors">
-      <div className="tick">
-        <img src={tick} alt="" className="tickImg"></img>
+    
+    <div className="sponsor-container" id="sponsors">
+    <div className="tick">
+        <img
+          src={tick}
+          alt=""
+          className="spo-image"
+        ></img>
       </div>
+      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="eve-heading">Sponsors</p>
       <div className="content">
-        <p className="sponsor-heading">Sponsors</p>
         <div className="row">
           <div id="first">
             <img src={sponsorImg} alt="first "></img>
