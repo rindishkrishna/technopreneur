@@ -13,7 +13,7 @@ const Events = () => {
           className="eve-image"
         ></img>
       </div>
-      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="eve-heading">Events</p>
+      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="headings">Events</p>
       <div
         style={{
           display: "flex",

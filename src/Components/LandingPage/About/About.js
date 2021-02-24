@@ -14,8 +14,14 @@ export default function AboutComponent(props){
             <img src={upWave} className="wave-d" alt="waveup"/>
         </div>
         <div className = "col about-container">
+            <div className="top-row">
+                <img src={meet} className="meet-img" alt="meet"/>
+                <button className="about-button1 about-button">Register</button>
+                <img src={topVector} className="top-vector" alt="top-vector" />
+            </div>
+            <div className="main-section">
             <div className="headerContent">
-                <p className="header">
+                <p className="headings">
                     About Us
                 </p>
             </div>
@@ -29,6 +35,7 @@ export default function AboutComponent(props){
                     </p>
                 </div>
                 
+            </div>
             </div>
             </div>
             <img src={upWaves} className="wave-d" alt="wavedown"/>

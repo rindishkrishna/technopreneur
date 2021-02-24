@@ -21,7 +21,7 @@ const Sponsors = () => {
           className="spo-image"
         ></img>
       </div>
-      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="eve-heading">Sponsors</p>
+      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="headings">Sponsors</p>
       <div className="content">
         <div className="row">
           <div id="first">
