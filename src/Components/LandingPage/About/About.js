@@ -19,8 +19,9 @@ export default function AboutComponent(props){
                 <button className="about-button1 about-button">Register</button>
                 <img src={topVector} className="top-vector" alt="top-vector" />
             </div>
+            <div className="main-section">
             <div className="headerContent">
-                <p className="header">
+                <p className="headings">
                     About Us
                 </p>
             </div>
@@ -34,6 +35,7 @@ export default function AboutComponent(props){
                     </p>
                 </div>
                 
+            </div>
             </div>
             </div>
             <img src={upWaves} className="wave-d" alt="wavedown"/>

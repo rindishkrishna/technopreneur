@@ -46,7 +46,9 @@
   padding-right: 2rem;
   padding-left: 2rem;
   margin-top: 1rem;
+  width:100%;
 }
+
 .button1 {
   background-color: white;
   color: black;
@@ -64,6 +66,8 @@
   .eve-image {
     width: 30%;
     margin-right: -5%;
+  }
+  .eventbutton{
   }
 }
 

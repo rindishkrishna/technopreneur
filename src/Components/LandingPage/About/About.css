@@ -3,7 +3,9 @@
     background-color: #002874;
     color: #fff;
   }
-  
+.main-section{
+    padding-top: 30px;
+}
 .col {
     display: flex;
     flex-direction: column;
@@ -98,8 +100,8 @@
 }
 
 .textStyle {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 300;
 }
 
 .wave-d {

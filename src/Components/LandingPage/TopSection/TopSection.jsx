@@ -16,7 +16,7 @@ const TopSection = () => {
                     <img src={rocketImg} alt="rocketman" className="rocket-man"/>
                 </div>
                 <div className="combine">
-                    <p className="Date">Date</p>
+                    <p className="Date">March xx</p>
                     <div className="social_media">
                     <a href="https://www.instagram.com/iedcmec/?hl=en" target="_blank" rel="noopener noreferrer" className="media_page">
                         <FaInstagram/>

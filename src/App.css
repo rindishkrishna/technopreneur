@@ -21,3 +21,12 @@
   text-align: center;
   font-weight: bold;
 }
+
+@media only screen and (max-width : 850px) {
+  .headings {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+}

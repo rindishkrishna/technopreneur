@@ -11,7 +11,11 @@
     align-items: center;
     font-size: 45px;
 }
-
+.heading{
+font-size: 35px;
+  text-align: center;
+  font-weight: 900;
+}
 .social_links {
     margin-left: 42%;
     margin-top: 30px;
@@ -32,6 +36,11 @@
     .cu-contents {
         font-size: 35px;
     }
+    .heading{
+        font-size: 32px;
+          text-align: center;
+          font-weight: 600;
+        }
 }
 
 @media only screen and (max-width: 450px){

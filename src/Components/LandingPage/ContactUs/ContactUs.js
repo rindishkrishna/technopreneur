@@ -9,7 +9,7 @@ const ContactUs = () => {
     <div className="contact-container" id="contactUs">
       <div className="cu-contents">
           <div>
-            <p className="heading">Contact Us</p>
+            <p className="headings">Contact Us</p>
           </div>
           <div>
             <div style={{"padding-bottom":"20px"}}>
