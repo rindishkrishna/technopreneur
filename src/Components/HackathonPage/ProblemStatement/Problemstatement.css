@@ -36,21 +36,20 @@
 
 .problem-text {
     font-size: 19px;
+    margin-top: 20px;
 }
 
 .problem-img {
-    padding: 20px;
     padding-left: 130px;
-    padding-top: 75px;
-    height: 250px;
+    margin: auto;
+    width: 370px;
 }
 
 @media (max-width: 600px) {
     .row .col.m8 {
-        width: 45.666667%;
-        margin-left: auto;
-        left: auto;
-        right: auto;
+        width: 80%;
+        margin-left: 0px;
+        margin: auto;
     }
     .problem-text {
         font-size: 18px;
@@ -64,4 +63,8 @@
     .container {
         width: 83%;
     }
+    .problem-img-div {
+        display: none !important;
+    }
+
 }

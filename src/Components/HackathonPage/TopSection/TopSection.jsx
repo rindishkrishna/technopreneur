@@ -3,8 +3,8 @@ import organiserImg from '../../../Assets/Organizing projects-cuate 1.png';
 import './TopSection.css';
 
 const TopSection = () => {
-    return (
-      <div className="row container" id="home">
+  return (
+    <div className="row container" id="home">
       <div className="col m8">
         <h3 className="top-heading">HACKATHON</h3>
         <div className="content-div">
@@ -16,7 +16,9 @@ const TopSection = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <button className="btn">Register Here</button>
+          <div>
+            <button className="btn">Register Here</button>
+          </div>
         </div>
       </div>
       <div className="col m4 img-div">
@@ -27,6 +29,6 @@ const TopSection = () => {
         />
       </div>
     </div>
-    )
+  )
 }
 export default TopSection

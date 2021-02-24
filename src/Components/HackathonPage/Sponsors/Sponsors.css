@@ -1,8 +1,13 @@
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin-top: 0;
+}
+
+.sponsors-row {
+  justify-content: space-around;
+  margin-top: 40px !important;
+  width: 80%;
 }
 
 #first,
@@ -14,4 +19,11 @@
 .heading {
   font-size: 40px;
   text-align: left;
+}
+
+@media (max-width: 600px)
+{
+  .heading {
+    text-align: center;
+  }
 }

@@ -11,6 +11,7 @@
 
 .prize-img {
   width: 90px;
+  margin: auto;
 }
 
 .offset {
@@ -28,6 +29,7 @@
   }
   .prize-heading {
     font-size: 35px;
+    text-align: center
   }
   .prize-img {
     width: 70px;

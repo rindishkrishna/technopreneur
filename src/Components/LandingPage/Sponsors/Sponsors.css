@@ -1,6 +1,11 @@
 .container {
-  max-width: 1280px;
   width: 100%;
+}
+
+.sponsor-container {
+  width: 100%;
+  background-color: #002874;
+  color: #fff;
 }
 
 .sponsor-heading {
@@ -13,17 +18,20 @@
 
 .tick {
   text-align: right;
-  margin-bottom: -90px;
+  margin-bottom: -50px;
   margin-right: 50px;
 }
 
-.tickImg {
-  width: 12%;
+
+.spo-image {
+  width: 15%;
   height: auto;
+  margin-top: -15%;
 }
 
+
 .row {
-  margin-top: 100px;
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -54,8 +62,12 @@
   .sponsor-heading {
     font-size: 28px;
   }
-  .tickImg {
+  .spo-image {
     width: 20%;
+    margin-right: -10%;
+  }
+  .tick {
+    margin-bottom: -35px;
   }
 }
 
