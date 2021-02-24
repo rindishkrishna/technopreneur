@@ -38,8 +38,9 @@
 }
 
 .vector {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
+    margin-left: -20%;
 }
 
 .aboutText {
@@ -145,7 +146,8 @@
         margin-bottom: -60px;
     }
     .vector {
-        max-width: 100%;
+        max-width: 75%;
+        margin-left: 0;
     }
     .aboutVector {
         width: 35%;
