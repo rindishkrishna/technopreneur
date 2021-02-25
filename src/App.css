@@ -20,6 +20,7 @@
   font-size: 45px;
   text-align: center;
   font-weight: bold;
+  text-align: left;
 }
 
 @media only screen and (max-width : 850px) {
@@ -27,6 +28,7 @@
     font-size: 35px;
     text-align: center;
     font-weight: bold;
+    padding-top: 20px;
   }
   
 }

@@ -20,9 +20,6 @@
     right: auto;
 }
 
-.problem-content-div {
-    margin-left: -10px;
-}
 
 .problem-img-div {
     text-align: center;
@@ -36,6 +33,7 @@
 
 .problem-text {
     font-size: 19px;
+    text-align: left;
     margin-top: 20px;
 }
 
@@ -53,6 +51,7 @@
     }
     .problem-text {
         font-size: 18px;
+        text-align: center;
     }
     .problem-heading {
         font-size: 35px;
