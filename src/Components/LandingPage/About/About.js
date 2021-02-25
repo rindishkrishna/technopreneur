@@ -21,7 +21,7 @@ export default function AboutComponent(props){
             </div>
             <div className="main-section">
             <div className="headerContent">
-                <p className="headings">
+                <p className="headings header">
                     About Us
                 </p>
             </div>
