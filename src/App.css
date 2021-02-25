@@ -22,6 +22,15 @@
   font-weight: bold;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 80%;
+  padding: 40px 0;
+  padding-left: 40px;
+}
+
+
 @media only screen and (max-width : 850px) {
   .headings {
     font-size: 35px;
@@ -29,5 +38,7 @@
     font-weight: bold;
     padding-top: 20px;
   }
-  
+  .container {
+    padding-left: 0px;
+  }
 }
