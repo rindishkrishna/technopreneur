@@ -7,30 +7,36 @@ import { FaTwitter }from 'react-icons/fa';
 const ContactUs = () => {
   return (
     <div className="contact-container" id="contactUs">
-      <div className="cu-contents">
           <div>
-            <p className="headings">Contact Us</p>
+            <p className="headings contact-heading">CONTACT US</p>
           </div>
-          <div>
-            <div style={{"padding-bottom":"20px"}}>
-                <p className="heading">Follow Us</p>
+          <div className="cu-contents">
+            <div className="iedc">
+                <p className="iedc-name">Innovation and Entrepreneurship Development Cell</p>
+                <p className="iedc-add">Govt. Model Engineering College <br/>Thrikkakara, Kochi, Kerala 682021 <br/>iedc@mec.ac.in</p>
             </div>
-            <div>
-            <div className="social_links">
-                <a href="https://www.instagram.com/iedcmec/?hl=en" target="_blank" rel="noopener noreferrer" className="media_link">
-                    <FaInstagram/>
-                </a>
-                <a href="https://in.linkedin.com/company/iedcmec" target="_blank" rel="noopener noreferrer" className="media_link">
-                    <FaLinkedin />
-                </a>
-                <a href="https://twitter.com/iedc_mec" target="_blank" rel="noopener noreferrer" className="media_link">
-                    <FaTwitter />
-                </a>                
-                </div>
+            <div className= "vl"/>
+            <div className="contacts">
+              <div className="contact">
+                <p className="c-name">
+                  Allen Joseph
+                </p>
+                <p className="c-desig">
+                  Convener<br/>+91 82812 84062
+                </p>
+              </div>
+              <div className= "vl vl-contact"/>
+              <div className="contact">
+                <p className="c-name">
+                  Alan Sebastian
+                </p>
+                <p className="c-desig">
+                  Marketing Manager<br/>+91 92873 41259
+                </p>
+              </div>
             </div>
           </div>
       </div>
-    </div>
   );
 };
 

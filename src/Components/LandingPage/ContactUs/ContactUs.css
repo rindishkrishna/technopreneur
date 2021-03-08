@@ -1,20 +1,39 @@
 .contact-container {
-    background-color: #cc0045;
     width: 100%;
     height: 40%;
+    padding-top: 5%;
+    color: blue;
+    padding-bottom: 5%;
   }
 
 .cu-contents {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     font-size: 45px;
 }
-.heading{
-font-size: 35px;
-  text-align: center;
-  font-weight: 900;
+
+.iedc {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-left: 10%;
+    width: 30%;
+}
+.contacts {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.contact-heading{
+  background: -webkit-linear-gradient(#002874, #cc0045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 100;
 }
 .social_links {
     margin-left: 42%;
@@ -23,24 +42,70 @@ font-size: 35px;
 }
 
 .media_link {
-    color: #fff;
+    color: red;
     padding: 5px;
     cursor: pointer;
     font-size: 45px;
 }
+.vl {
+    background-image: -webkit-linear-gradient(#002874, #cc0045);
+    width: 3px;
+    height: 100px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+.iedc-name {
+    font-size: 16px;
+    font-weight:bold;
+    color: #2B206A;
+}
+
+.iedc-add {
+    font-size: 14px;
+    background: -webkit-linear-gradient(#002874, #cc0045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.c-name {
+    font-size: 16px;
+    font-weight:bold;
+    color: #2B206A;
+    
+}
+.c-desig {
+    font-size: 14px;
+    background: -webkit-linear-gradient(#002874, #cc0045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media only screen and (max-width: 850px){
+    
+    .iedc-name{
+        font-size: 14px;
+    }
+    .iedc-add {
+        font-size: 12px;
+    }
+    .c-name {
+        font-size: 14px;
+    }
+    .c-desig {
+        font-size: 12px;
+    }
+    .iedc {
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 650px){
     .media_link {
         font-size: 35px;
     }
 
     .cu-contents {
-        font-size: 35px;
+        font-size: 28px;
     }
-    .heading{
-        font-size: 32px;
-          text-align: center;
-          font-weight: 600;
-        }
 }
 
 @media only screen and (max-width: 450px){
@@ -50,5 +115,40 @@ font-size: 35px;
 
     .cu-contents {
         font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .media_link {
+        font-size: 28px;
+    }
+
+    .cu-contents {
+        font-size: 24px;
+    }
+    .contacts {
+        flex-direction: column;
+    }
+    .contact {
+        margin-bottom: 10px;
+    }
+    .vl-contact {
+        display: none;
+    }
+    .vl {
+        width: 1px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+   
+    .iedc-name{
+        font-size: 12px;
+    }
+    .c-name {
+        font-size: 12px;
+    }
+    .iedc {
+        width: 40%;
     }
 }

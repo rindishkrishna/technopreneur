@@ -6,14 +6,9 @@ import "./Events.css";
 const Events = () => {
   return (
     <div className="eve-container" id="events">
-      <div className="eve-tick">
-        <img
-          src={tick}
-          alt=""
-          className="eve-image"
-        ></img>
+      <div className="eve-heading">
+        <p className="headings eve-head">EVENTS</p>
       </div>
-      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="headings">Events</p>
       <div
         style={{
           display: "flex",
