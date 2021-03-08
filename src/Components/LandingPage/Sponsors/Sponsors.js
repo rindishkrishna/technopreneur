@@ -9,37 +9,27 @@ import "./Sponsors.css";
 const Sponsors = () => {
   return (
     <div>
-    <div className="top-section">
-      <img src={upWave} className="wave-d" alt="waveup"/>
-    </div>
     
     <div className="sponsor-container" id="sponsors">
-    <div className="tick">
-        <img
-          src={tick}
-          alt=""
-          className="spo-image"
-        ></img>
-      </div>
-      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="headings">Sponsors</p>
+    
+      <p className="headings">OUR <br/> PARTNERS</p>
       <div className="content">
         <div className="row">
           <div id="first">
-            <img src={sponsorImg} alt="first "></img>
+            <img src={sponsorImg} alt="first " className="placeholder"></img>
           </div>
           <div id="second">
-            <img src={sponsorImg} alt="second "></img>
+            <img src={sponsorImg} alt="second " className="placeholder"></img>
           </div>
           <div id="third">
-            <img src={sponsorImg} alt="third "></img>
+            <img src={sponsorImg} alt="third " className="placeholder"></img>
           </div>
           <div id="fourth">
-            <img src={sponsorImg} alt="fourth "></img>
+            <img src={sponsorImg} alt="fourth " className="placeholder"></img>
           </div>
         </div>
       </div>
     </div>
-    <img src={upWaves} className="wave-d" alt="wavedown"/>
     </div>
   );
 };

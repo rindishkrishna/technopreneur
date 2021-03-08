@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 .primary-color {
   background-color: #002874;
 }
@@ -12,7 +13,7 @@
 }
 
 #landingPage {
-  background-color: #cc0045;
+  background-color: #fff;
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
@@ -30,15 +31,27 @@
   padding-left: 40px;
 }
 
-
-@media only screen and (max-width : 850px) {
+.headings {
+  font-size: 45px;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+@media only screen and (max-width : 650px) {
+  .headings {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width : 500px) {
   .headings {
     font-size: 35px;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 20px;
+    margin-bottom: 10%;
   }
   .container {
     padding-left: 0px;
+  }
+}
+@media only screen and (max-width : 350px) {
+  .headings {
+    font-size: 24px;
   }
 }
