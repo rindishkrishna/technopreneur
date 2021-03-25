@@ -14,7 +14,6 @@
     right: auto;
 }
 
-
 .problem-img-div {
     text-align: center;
 }
@@ -45,7 +44,6 @@
     }
     .problem-text {
         font-size: 18px;
-        text-align: center;
     }
     .problem-heading {
         font-size: 35px;
@@ -59,5 +57,4 @@
     .problem-img-div {
         display: none !important;
     }
-
 }
