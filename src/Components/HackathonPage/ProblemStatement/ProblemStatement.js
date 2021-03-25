@@ -9,12 +9,11 @@ const ProblemStatement = () => {
         <h3 className="headings">Problem Statement</h3>
         <div className="problem-content-div">
           <p className="problem-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+          (a) Open Innovation
+          <br />
+          (b) Women Empowerment [or any other similar relevant women’s issue]
+          <br />
+          (c) Post Pandemic Relief.
           </p>
         </div>
       </div>
