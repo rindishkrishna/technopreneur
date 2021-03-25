@@ -8,25 +8,25 @@ export const Navbar = () => {
             <li>
               <Link to="/#home" smooth={true} spy={true} duration={1000}
               className="av-link">
-                Home
+                HOME
                 </Link>
             </li>
             <li>
               <Link to="/#about" smooth={true} spy={true} duration={1000}
               className="av-link">
-                About Us
+                ABOUT US
                 </Link>
             </li>
             <li>
               <Link to="/#events" smooth={true} spy={true} duration={1000}
               className="av-link">
-                Events
+                EVENTS
                 </Link>
             </li>
             <li>
               <Link to="/#sponsors" smooth={true} spy={true} duration={1000}
               className="av-link">
-                Sponsors
+                SPONSORS
                 </Link>
             </li>
           </ul>

@@ -1,9 +1,4 @@
-.container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 70%;
-  padding: 40px 0;
-}
+
 
 .faqs {
   font-size: 40px;
@@ -13,4 +8,24 @@
 .second,
 .third {
   margin: 40px 30px;
+}
+
+.faq-text {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px)
+{
+  .first,
+  .second,
+  .third {
+    margin: 0px 0px;
+  }
+  .faqs {
+    text-align: center;
+  }
+  .faq-text {
+    padding: 20px;
+    text-align: center;
+  }
 }
