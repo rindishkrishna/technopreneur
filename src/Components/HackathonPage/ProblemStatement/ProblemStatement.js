@@ -6,7 +6,7 @@ const ProblemStatement = () => {
   return (
     <div className="row container" id="problemstatement">
       <div className="col m8">
-        <h3 className="headings">Problem Statement</h3>
+        <h3 className="heading">Problem Statement</h3>
         <div className="problem-content-div">
           <p className="problem-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

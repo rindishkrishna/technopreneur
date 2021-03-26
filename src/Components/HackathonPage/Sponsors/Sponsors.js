@@ -5,7 +5,7 @@ import "./Sponsors.css";
 const Sponsors = () => {
   return (
     <div className="container" id="sponsors">
-      <h1 className="headings">Sponsors</h1>
+      <h1 className="heading">Sponsors</h1>
       <div className="row sponsors-row">
         <div className="first">
           <img src={sponsorImg} alt="first "></img>

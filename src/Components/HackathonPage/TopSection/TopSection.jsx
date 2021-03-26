@@ -6,7 +6,7 @@ const TopSection = () => {
   return (
     <div className="row container" id="home">
       <div className="col m8">
-        <h3 className="headings top-heading">HACKATHON</h3>
+        <h3 className="heading top-heading">HACKATHON</h3>
         <div className="content-div">
           <p className="text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
