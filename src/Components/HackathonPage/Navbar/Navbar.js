@@ -8,31 +8,31 @@ export const Navbar = () => {
         <nav className="nav">
           <ul className="navbar-item">
             <li>
-              <Link to="/#home" smooth={true} spy={true} duration={1000}
+              <Link to="hackathon/#home" smooth={true} spy={true} duration={1000}
               className="nav-link">
                 Home
                 </Link>
             </li>
             <li>
-              <Link to="/#problemstatement" smooth={true} spy={true} duration={1000}
+              <Link to="hackathon/#problemstatement" smooth={true} spy={true} duration={1000}
               className="nav-link">
                 Problem Statement
                 </Link>
             </li>
             <li>
-              <Link to="/#prizes" smooth={true} spy={true} duration={1000}
+              <Link to="hackathon/#prizes" smooth={true} spy={true} duration={1000}
               className="nav-link">
                 Prizes
                 </Link>
             </li>
             <li>
-              <Link to="/#faq" smooth={true} spy={true} duration={1000}
+              <Link to="hackathon/#faq" smooth={true} spy={true} duration={1000}
               className="nav-link">
                 FAQ
                 </Link>
             </li>
             <li>
-            <Link to="/#sponsors" smooth={true} spy={true} duration={1000}
+            <Link to="hackathon/#sponsors" smooth={true} spy={true} duration={1000}
               className="nav-link">
                 Sponsors
                 </Link>

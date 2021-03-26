@@ -11,9 +11,9 @@ const ProblemStatement = () => {
           <p className="problem-text">
           (a) Open Innovation
           <br />
-          (b) Women Empowerment [or any other similar relevant women’s issue]
+          (b) Women Empowerment 
           <br />
-          (c) Post Pandemic Relief.
+          (c) Post Pandemic Relief
           </p>
         </div>
       </div>
