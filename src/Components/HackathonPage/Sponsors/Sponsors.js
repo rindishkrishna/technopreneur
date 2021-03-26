@@ -9,18 +9,18 @@ const Sponsors = () => {
   return (
     <div className="container" id="sponsors">
       <h1 className="heading">Sponsors</h1>
-      <div className="row sponsors-row">
-        <div className="first">
-          <img src={devfolio} alt="first "></img>
+      <div className="sponsors-row">
+        <div className="first-sponsors">
+          <img src={devfolio} alt="first " className="sponsor-image"></img>
         </div>
-        <div className="second">
-          <img src={Portis} alt="second "></img>
+        <div className="second-sponsors">
+          <img src={Portis} alt="second "className="sponsor-image"></img>
         </div>
-        <div className="third">
-          <img src={Polygon} alt="third "></img>
+        <div className="third-sponsors">
+          <img src={Polygon} alt="third "className="sponsor-image"></img>
         </div>
-        <div className="third">
-          <img src={Tezos} alt="third "></img>
+        <div className="fourth-sponsors">
+          <img src={Tezos} alt="third "className="sponsor-image"></img>
         </div>
       </div>
     </div>

@@ -1,25 +1,19 @@
 .container{
   overflow: hidden;
 }
-.row {
-  display: flex;
-  flex-direction: row;
-  margin-top: 0;
-  
-}
 
 .sponsors-row {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin-top: 40px !important;
-  width: 90%;
-  flex-flow: wrap;
-  flex-grow: 0;
 
 }
 
-#first,
-#second,
-#third {
+#first-sponsors,
+#second-sponsors,
+#third-sponsors,
+#fourth-sponsors {
   flex: 1;
 }
 
@@ -31,6 +25,15 @@
 @media (max-width: 600px)
 {
   .heading {
+    text-align: center;
+    font-size:30px;
+  }
+  .sponsor-image{
+    width:50%;
+    padding-bottom:20px;
+  }
+  .sponsors-row{
+    flex-direction: column;
     text-align: center;
   }
 }

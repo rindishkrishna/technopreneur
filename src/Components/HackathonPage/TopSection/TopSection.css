@@ -15,8 +15,11 @@
     .top-text {
         padding-left: 100px;
         font-size: 16px;
+      
     }
-    
+    .text{
+        margin-bottom:20px;
+    }
     .btn {
         background-color: white;
         border-radius: 20px;
@@ -34,7 +37,9 @@
     .btn:hover {
         background-color: whitesmoke;
     }
-    
+    .hacklogo {
+        max-width: 130%;
+    }
     .top-img {
         width: 600px;
         padding-right: 10px;
@@ -46,7 +51,7 @@
         width: 150%;
         height: 100px;
     }
-    
+   
     @media (max-width: 600px) {
         .top-text {
             font-size: 18px;
@@ -108,7 +113,7 @@
             padding-left: 40px;
         }
         .hacklogo {
-            max-width: 100%;
+            max-width: 110%;
         }
     }
     /* @media screen and (min-width: 1100px) {

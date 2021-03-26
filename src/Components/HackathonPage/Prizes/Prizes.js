@@ -9,8 +9,8 @@ const Prizes = () => {
     <div className="container prize-container" id="prizes">
       <h3 className="heading">Prizes</h3>
       <div className="col m4 prize-div">
-          <h2>Prizes Worth </h2>
-          <h3>3 Lakhs</h3>
+          {/* <h2 >Prizes Worth </h2>
+          <h3>3 Lakhs</h3> */}
           <img src={firstPrizeImg} className="prize-img" alt="first prize" />
           <h3>7000 ₹</h3>
           </div>

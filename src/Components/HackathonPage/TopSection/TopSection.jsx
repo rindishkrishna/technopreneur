@@ -27,7 +27,7 @@ const TopSection = () => {
             TechnoHack invites all geeks and entrepreneurs to come up with
             solutions to problems of today.
           </p>
-          <div class="apply-button" 
+          <div className="apply-button" 
 	          data-hackathon-slug="YOUR-HACKATHON-SLUG" 
 	          data-button-theme="light"
             style={{height: "44px",
