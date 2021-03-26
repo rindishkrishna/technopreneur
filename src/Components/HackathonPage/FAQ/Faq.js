@@ -31,7 +31,7 @@ const items = [
 const Faqs = () => {
   return (
     <div className="container" id="faq">
-      <h3 className="headings faqs">FAQ</h3>
+      <h3 className="heading faqs">FAQ</h3>
       <div className="faq-text">
         <Accordion preExpanded={[1, 2]} allowMultipleExpanded>
           {items.map((item) => (
