@@ -4,6 +4,16 @@ import logo from '../../../Assets/technohacklogo.png';
 import './TopSection.css';
 
 const TopSection = () => {
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <div className="row container" id="home">
       <div className="col m8">
@@ -17,8 +27,11 @@ const TopSection = () => {
             TechnoHack invites all geeks and entrepreneurs to come up with
             solutions to problems of today.
           </p>
-          <div>
-            <button className="btn">Register Here</button>
+          <div class="apply-button" 
+	          data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+	          data-button-theme="light"
+            style={{height: "44px",
+              width: "312px"}}>
           </div>
         </div>
       </div>
