@@ -16,7 +16,7 @@ export const Navbar = () => {
             <li>
               <Link to="hackathon/#problemstatement" smooth={true} spy={true} duration={1000}
               className="nav-link">
-                Problem Statement
+               Tracks
                 </Link>
             </li>
             <li>
@@ -28,7 +28,7 @@ export const Navbar = () => {
             <li>
               <Link to="hackathon/#faq" smooth={true} spy={true} duration={1000}
               className="nav-link">
-                FAQ
+                Faq
                 </Link>
             </li>
             <li>
