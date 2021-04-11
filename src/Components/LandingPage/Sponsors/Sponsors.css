@@ -8,17 +8,22 @@
   color: #fff;
 }
 
-.sponsor-heading {
+/* .sponsor-heading {
   padding-left: 10%;
   font-size: 45px;
   margin-bottom: 40px;
   padding: 30;
-  width: 100%;
+  width: 70%;
+} */
+
+.partner-heading {
+  padding-top: 2rem;
 }
 
 .row {
   margin-top: 10px;
   display: flex;
+
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -28,7 +33,7 @@
 .content {
   /* padding-bottom: 40px; */
   /* width: auto; */
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,6 +54,11 @@
   }
   .sponsor-heading {
     font-size: 35px;
+  }
+  .content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

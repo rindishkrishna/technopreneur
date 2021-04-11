@@ -15,7 +15,7 @@ const Sponsors = () => {
   return (
     <div>
       <div className="sponsor-container" id="sponsors">
-        <p className="headings">
+        <p className="headings partner-heading">
           OUR <br /> PARTNERS
         </p>
         <div className="content">
