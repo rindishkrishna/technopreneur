@@ -1,7 +1,9 @@
 import React from "react";
-import eventImg from "../../../Assets/grey-square.jpg";
+import edit from "../../../Assets/comingsoon.png";
+import logo from "../../../Assets/logo.jpg"
 import tick from "../../../Assets/Saly-10.png";
 import "./Events.css";
+import { Link } from 'react-router-dom';
 
 const Events = () => {
   return (
@@ -18,21 +20,22 @@ const Events = () => {
         }}
       >
         <div className="event">
-          <img src={eventImg} alt="" className="eventImage"></img>
-
+          <img src={logo} alt="" className="eventImage" ></img>  
+          <div className="eventButton" >
+            <Link to="../../hackathon"><button className="button button1">Register</button></Link>
+            
+          </div>
+        </div>
+        <div className="event">
+          <p>Coming Soon</p>
+          <img src={edit} alt="Coming Soon" className="eventImage"></img> 
           <div className="eventButton">
             <button className="button button1">Register</button>
           </div>
         </div>
-        <div className="event">
-          <img src={eventImg} alt="" className="eventImage"></img>
-          <div className="eventButton">
-            <button className="button button1">Register</button>
-          </div>
-        </div>
 
         <div className="event">
-          <img src={eventImg} alt="" className="eventImage"></img>
+         <img src={edit} alt="Coming Soon" className="eventImage"></img>  
           <div className="eventButton">
             <button className="button button1">Register</button>
           </div>

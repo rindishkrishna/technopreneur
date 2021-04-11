@@ -16,9 +16,9 @@ export default function AboutComponent(props){
             <div className="aboutContent">
                 <div className="aboutText">
                     <p className="textStyle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla id pellentesque id eros mi tristique iaculis. Blandit eget est id mauris, etiam pretium. Eu ipsum, enim senectus id metus nulla pellentesque elementum. Morbi vitae porta id cum commodo varius.
+                    Technopreneur, the national flagship event of IEDC MEC and the annual entrepreneurial and managerial e-summit of Model Engineering College, includes a plethora of events including Idea Pitching, Prototype Development, hackathons, and much more. The first edition of Technopreneur, Technopreneur 2006, went on to win the Best Yi-Net event at the CII National Summit in Mumbai. With over 1000+ participants from top engineering colleges and B-schools across the country, Technopreneur aims to impact everyone from students to working-class professionals. 
 <br/><br/>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla id pellentesque id eros mi tristique iaculis. Blandit eget est id mauris, etiam pretium. Eu ipsum, enim senectus id metus nulla pellentesque elementum. Morbi vitae porta id cum commodo varius.
+To successfully emerge from the ashes of the dire conditions of a pandemic stricken world, this year's theme for Technopreneur is to evolve into a better world through disruption, to provide the most innovative solutions for our problems. Our theme hopes to invoke a sense of responsibility and leadership in one's mind in order for them to understand that all our battles can be won through entrepreneurial solutions.
                     </p>
                 </div>
                 
