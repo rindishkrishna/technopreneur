@@ -16,14 +16,7 @@
   width: 100%;
 }
 
-.row {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .content {
   /* padding-bottom: 40px; */
