@@ -3,7 +3,6 @@ import './TopSection.css';
 import logo from '../../../Assets/logo.png';
 import { BrowserRouter } from "react-router-dom";
 import { Navbar } from "../Navbar/Navbar";
-import rocketImg from '../../../Assets/Saly-1.png';
 import { FaInstagram } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitter }from 'react-icons/fa';

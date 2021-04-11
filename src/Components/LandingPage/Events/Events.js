@@ -1,7 +1,6 @@
 import React from "react";
 import edit from "../../../Assets/comingsoon.png";
 import logo from "../../../Assets/technohacklogo.png"
-import tick from "../../../Assets/Saly-10.png";
 import "./Events.css";
 import { Link } from 'react-router-dom';
 

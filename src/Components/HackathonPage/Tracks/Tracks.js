@@ -1,6 +1,6 @@
 import React from "react";
-import problemImg from "../../../Assets/Frame.png";
-import "./Problemstatement.css";
+import problemImg from "../../../Assets/Question.png";
+import "./Tracks.css";
 
 const ProblemStatement = () => {
   return (
