@@ -4,13 +4,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .eve-container {
   background-color: #fff;
   padding-bottom: 5%;
-  
 }
 .eve-heading {
   font-family: Montserrat;
@@ -18,14 +16,11 @@
   font-weight: 600;
 }
 .eve-head {
-  
   background: -webkit-linear-gradient(#002874, #cc0045);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 100;
 }
-
-
 
 .button {
   background-image: -webkit-linear-gradient(#002874, #cc0045); /* Green */
@@ -45,19 +40,18 @@
   padding-right: 2rem;
   padding-left: 2rem;
   margin-top: 1rem;
-  width:100%;
+  width: 100%;
 }
 
 .button1 {
   color: #ffffff;
   background-image: -webkit-linear-gradient(#cc0045, #002874);
-
 }
-.eventImage{
+.eventImage {
   width: 200px;
-  height:auto;
+  height: auto;
 }
-@media only screen and (max-width : 850px) {
+@media only screen and (max-width: 850px) {
   .eve-heading {
     font-size: 35px;
   }
@@ -65,11 +59,11 @@
     width: 30%;
     margin-right: -5%;
   }
-  .eventbutton{
+  .eventbutton {
   }
 }
 
-@media only screen and (max-width : 450px) {
+@media only screen and (max-width: 450px) {
   .eve-heading {
     font-size: 28px;
   }
@@ -82,13 +76,10 @@
     padding-right: 1rem;
     padding-left: 1rem;
   }
-  
 }
 
-@media only screen and (max-width : 350px) {
-
+@media only screen and (max-width: 350px) {
   .eve-image {
     margin-right: -16%;
   }
 }
-
