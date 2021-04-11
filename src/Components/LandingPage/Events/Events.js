@@ -1,6 +1,6 @@
 import React from "react";
 import edit from "../../../Assets/comingsoon.png";
-import logo from "../../../Assets/logo.jpg"
+import logo from "../../../Assets/technohacklogo.png"
 import tick from "../../../Assets/Saly-10.png";
 import "./Events.css";
 import { Link } from 'react-router-dom';
@@ -27,17 +27,16 @@ const Events = () => {
           </div>
         </div>
         <div className="event">
-          <p>Coming Soon</p>
           <img src={edit} alt="Coming Soon" className="eventImage"></img> 
           <div className="eventButton">
-            <button className="button button1">Register</button>
+            {/* <button className="button button1">Register</button> */}
           </div>
         </div>
 
         <div className="event">
          <img src={edit} alt="Coming Soon" className="eventImage"></img>  
           <div className="eventButton">
-            <button className="button button1">Register</button>
+            {/* <button className="button button1">Register</button> */}
           </div>
         </div>
       </div>
