@@ -18,8 +18,8 @@ const Sponsors = () => {
         <p className="headings partner-heading">
           OUR <br /> PARTNERS
         </p>
-        <div className="content">
-          <div className="row">
+        <div className="partner-content">
+          <div className="partner-row">
             <div id="first">
               <img
                 src={microsoft}
