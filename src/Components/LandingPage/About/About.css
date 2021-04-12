@@ -46,14 +46,17 @@
 @media only screen and (max-width: 800px) {
     .about-container {
         background-position: center;
+        padding-top: 20%;
     }
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width: 600px) {
     .about-container {
         padding-top: 30%;
         height: auto;
     }
 }
+
 @media only screen and (max-width: 350px) {
     .about-container {
         padding-top: 40%;

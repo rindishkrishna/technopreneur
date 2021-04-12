@@ -42,6 +42,9 @@
     margin-right: 5%;
     margin-left: 5%;
   }
+.vl-main{
+    display: none;
+}
 
 .iedc-name {
     font-size: 16px;
@@ -101,7 +104,9 @@
     .vl-contact {
         display: none;
     }
-    .vl {
+
+    .vl-main{
+        display: flex;
         width: 1px;
     }
     .contact {
@@ -126,6 +131,10 @@
     }
     .vl {
         width: 1px;
+    }
+    .vl-main{
+        width: 1px;
+        display: flex;
     }
 }
 
