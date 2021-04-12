@@ -1,6 +1,5 @@
 import React from 'react';
 import "./About.css";
-import upWaves from '../../../Assets/Events-Wave.png'
 
 export default function AboutComponent(props){
     return(
@@ -25,7 +24,6 @@ To successfully emerge from the ashes of the dire conditions of a pandemic stric
             </div>
             </div>
             </div>
-            <img src={upWaves} className="wave-d" alt="wavedown"/>
         </div>
     )
 }
