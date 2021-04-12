@@ -9,7 +9,7 @@ import { FaTwitter }from 'react-icons/fa';
 const TopSection = () => {
     return ( 
         <div id="home" className="top-container">
-            <div className="logo-section">
+            <div>
                 <img src= {logo} alt="LOGO" className="logo"/>
             </div>
             <BrowserRouter>
