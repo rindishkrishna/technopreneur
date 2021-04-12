@@ -6,15 +6,14 @@ const ProblemStatement = () => {
   return (
     <div className="row container" id="problemstatement">
       <div className="col m8">
-        <h3 className="headings">Problem Statement</h3>
+        <h3 className="heading">Tracks</h3>
         <div className="problem-content-div">
           <p className="problem-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+          ⚪ Open Innovation
+          <br /><br />
+          ⚪ Women Empowerment 
+          <br /><br />
+          ⚪ Post Pandemic Relief
           </p>
         </div>
       </div>

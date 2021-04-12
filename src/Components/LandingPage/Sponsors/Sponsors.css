@@ -1,70 +1,79 @@
 .sponsor-container {
   width: 100%;
-  background-color: #002874;
+  background-image: url("../../../Assets/Partner-Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
   color: #fff;
-  padding-top:20px
 }
 
-.sponsor-heading {
-  text-align: center;
+/* .sponsor-heading {
+  padding-left: 10%;
   font-size: 45px;
   margin-bottom: 40px;
   padding: 30;
-  width: 100%;
+  width: 70%;
+} */
+
+.partner-heading {
+  padding-top: 2rem;
 }
 
-.tick {
-  text-align: right;
-  margin-bottom: -50px;
-  margin-right: 50px;
-}
-
-
-.spo-image {
-  width: 15%;
-  height: auto;
-  margin-top: -15%;
-}
-
-
-.row {
-  margin-top: 40px;
+.partner-row {
+  margin-top: 10px;
   display: flex;
+
   flex-direction: row;
-  text-align: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.content {
-  padding-bottom: 40px;
+.partner-content {
+  /* padding-bottom: 40px; */
+  /* width: auto; */
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#first,
-#second,
-#third,
-#fourth {
-  flex: 1;
+.partner-image {
+  width: 17rem;
+  height: 8rem;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-@media only screen and (max-width : 850px) {
+@media only screen and (max-width: 830px) {
+  .sponsor-container {
+    background-position: center;
+  }
   .sponsor-heading {
     font-size: 35px;
   }
-  .tickImg {
-    width: 15%;
+  .partner-content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media only screen and (max-width : 450px) {
+@media only screen and (max-width: 450px) {
   .sponsor-heading {
     font-size: 28px;
   }
-  .spo-image {
-    width: 20%;
-    margin-right: -10%;
+  .partner-content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .tick {
-    margin-bottom: -35px;
+  .partner-image {
+    width: 7rem;
+    height: 3.5rem;
+    object-fit: cover;
   }
 }
-

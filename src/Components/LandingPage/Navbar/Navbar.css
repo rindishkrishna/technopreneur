@@ -6,16 +6,14 @@
 .navbar {
     display: flex;
     margin: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
     position: relative;
     height: 40px;
     justify-content: space-around;
-    border: 3px solid transparent;
     align-items: center;
     border-radius: 50px;
-    background: linear-gradient(white, white) padding-box, linear-gradient(-2deg, #CC0045, #002874) border-box;
-    box-shadow: 0 1px 5px black, inset 0 0 9px white;
+    background: linear-gradient(180deg, #002874 0%, #CC0045 100%);
 }
 
 .nav-item {
@@ -27,7 +25,7 @@
 }
 
 .av-link {
-    color: #002874;
+    color: #fff;
     font-size: 16px;
     padding: 10px 30px;
     cursor: pointer;
@@ -35,11 +33,26 @@
     display: inline-flex;
     text-align: center;
 }
-
+.av-link:hover {
+    font-weight: bold;
+}
+@media screen and (max-width:750px) {
+    .navbar {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
 @media screen and (max-width:650px) {
     .av-link {
         padding: 8px 10px;
         font-size: 14px;
+    }
+}
+@media screen and (max-width:450px) {
+    
+    .navbar {
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
 @media screen and (max-width:350px) {
@@ -47,12 +60,18 @@
         padding: 8px 6px;
         font-size: 13px;
     }
+    .navbar {
+        height: 35px;
+    }
 }
 
 @media screen and (max-width:300px) {
     .av-link {
         padding: 8px 3px;
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .navbar {
+        height: 30px;
     }
 }
 

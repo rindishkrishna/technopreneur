@@ -1,23 +1,37 @@
 import React from 'react';
 import organiserImg from '../../../Assets/Organizing projects-cuate 1.png';
+import logo from '../../../Assets/technohacklogo.png';
 import './TopSection.css';
 
 const TopSection = () => {
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <div className="row container" id="home">
       <div className="col m8">
-        <h3 className="headings top-heading">HACKATHON</h3>
+        <h3 className="top-heading">
+          <img src={ logo } className="hacklogo" />
+        </h3>
         <div className="content-div">
           <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            <strong> TechnoHack </strong> is a nation-wide hackathon conducted 
+            as a part of <strong> IEDC MEC's Technopreneur </strong> event. 
+            TechnoHack invites all geeks and entrepreneurs to come up with
+            solutions to problems of today.
           </p>
-          <div>
-            <button className="btn">Register Here</button>
+          <div className="apply-button" 
+	          data-hackathon-slug="YOUR-HACKATHON-SLUG" 
+	          data-button-theme="light"
+            style={{height: "44px",
+              width: "312px"}}>
           </div>
         </div>
       </div>

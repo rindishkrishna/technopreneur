@@ -18,8 +18,9 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     margin-bottom: 2%;
 }
 
@@ -40,20 +41,17 @@
     height: 100%;
 }
 
-.Date {
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 40px;
-}
+
 
 .social_media {
     font-size: 45px;
+  
     
 }
 
 .media_page {
     margin-right: 20px;
-    color: #CC0045;
+    color: #002874;
 }
 
 @media only screen and (max-width : 850px) {

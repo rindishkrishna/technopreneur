@@ -1,45 +1,47 @@
 import React from "react";
-import eventImg from "../../../Assets/grey-square.jpg";
+import edit from "../../../Assets/comingsoon.png";
+import logo from "../../../Assets/technohacklogo.png";
 import tick from "../../../Assets/Saly-10.png";
 import "./Events.css";
+import { Link } from "react-router-dom";
 
 const Events = () => {
   return (
     <div className="eve-container" id="events">
-      <div className="eve-tick">
-        <img
-          src={tick}
-          alt=""
-          className="eve-image"
-        ></img>
+      <div className="eve-heading">
+        <p className="headings eve-head">EVENTS</p>
       </div>
-      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="headings">Events</p>
       <div
         style={{
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
-          marginBottom:"10%"
+          marginBottom: "10%",
+          width: "80%",
+          marginLeft: "auto",
+          marginRight: "auto",
+          flexWrap: "wrap",
         }}
       >
         <div className="event">
-          <img src={eventImg} alt="" className="eventImage"></img>
-
+          <img src={logo} alt="" className="eventImage"></img>
           <div className="eventButton">
-            <button className="button button1">Register</button>
+            <Link to="../../hackathon">
+              <button className="button button1">Register</button>
+            </Link>
           </div>
         </div>
         <div className="event">
-          <img src={eventImg} alt="" className="eventImage"></img>
+          <img src={edit} alt="Coming Soon" className="eventImage"></img>
           <div className="eventButton">
-            <button className="button button1">Register</button>
+            {/* <button className="button button1">Register</button> */}
           </div>
         </div>
 
         <div className="event">
-          <img src={eventImg} alt="" className="eventImage"></img>
+          <img src={edit} alt="Coming Soon" className="eventImage"></img>
           <div className="eventButton">
-            <button className="button button1">Register</button>
+            {/* <button className="button button1">Register</button> */}
           </div>
         </div>
       </div>

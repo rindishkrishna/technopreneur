@@ -1,45 +1,71 @@
 import React from "react";
-import sponsorImg from "../../../Assets/grey-square.jpg";
+import microsoft from "../../../Assets/sponsors/microsoft.png";
+import uber from "../../../Assets/sponsors/Uber.png";
+import cognizant from "../../../Assets/sponsors/Cognizant.png";
+import tcs from "../../../Assets/sponsors/tcs.png";
+import ebay from "../../../Assets/sponsors/ebay.png";
+import itc from "../../../Assets/sponsors/ITC.png";
 import tick from "../../../Assets/Saly-26.png";
-import downWave from '../../../Assets/Vector-3.png'
-import upWave from '../../../Assets/Vector-2.png'
-import upWaves from '../../../Assets/Group-5.png'
+import downWave from "../../../Assets/Vector-3.png";
+import upWave from "../../../Assets/Vector-2.png";
+import upWaves from "../../../Assets/Group-5.png";
 import "./Sponsors.css";
 
 const Sponsors = () => {
   return (
     <div>
-    <div className="top-section">
-      <img src={upWave} className="wave-d" alt="waveup"/>
-    </div>
-    
-    <div className="sponsor-container" id="sponsors">
-    <div className="tick">
-        <img
-          src={tick}
-          alt=""
-          className="spo-image"
-        ></img>
-      </div>
-      <p style={{ textAlign: "center", marginBottom: "3rem" }} className="headings">Sponsors</p>
-      <div className="content">
-        <div className="row">
-          <div id="first">
-            <img src={sponsorImg} alt="first "></img>
-          </div>
-          <div id="second">
-            <img src={sponsorImg} alt="second "></img>
-          </div>
-          <div id="third">
-            <img src={sponsorImg} alt="third "></img>
-          </div>
-          <div id="fourth">
-            <img src={sponsorImg} alt="fourth "></img>
+      <div className="sponsor-container" id="sponsors">
+        <p className="headings partner-heading">
+          OUR <br /> PARTNERS
+        </p>
+        <div className="partner-content">
+          <div className="partner-row">
+            <div id="first">
+              <img
+                src={microsoft}
+                alt="first "
+                className="placeholder partner-image"
+              ></img>
+            </div>
+            <div id="second">
+              <img
+                src={uber}
+                alt="second "
+                className="placeholder partner-image"
+              ></img>
+            </div>
+            <div id="third">
+              <img
+                src={cognizant}
+                alt="third "
+                className="placeholder partner-image"
+              ></img>
+            </div>
+
+            <div id="fourth">
+              <img
+                src={ebay}
+                alt="fourth "
+                className="placeholder partner-image"
+              ></img>
+            </div>
+            <div id="fifth">
+              <img
+                src={tcs}
+                alt="fourth "
+                className="placeholder partner-image"
+              ></img>
+            </div>
+            <div id="sixth">
+              <img
+                src={itc}
+                alt="fourth "
+                className="placeholder partner-image"
+              ></img>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <img src={upWaves} className="wave-d" alt="wavedown"/>
     </div>
   );
 };
