@@ -3,10 +3,12 @@ import edit from "../../../Assets/comingsoon.png";
 import logo from "../../../Assets/technohacklogo.png"
 import "./Events.css";
 import { Link } from "react-router-dom";
+import upWaves from '../../../Assets/events-wave.png';
 
 const Events = () => {
   return (
     <div className="eve-container" id="events">
+      <img src={upWaves} alt="wavedown"/>
       <div className="eve-heading">
         <p className="headings eve-head">EVENTS</p>
       </div>
@@ -44,6 +46,7 @@ const Events = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

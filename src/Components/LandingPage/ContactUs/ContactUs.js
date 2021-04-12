@@ -1,9 +1,14 @@
 import React from "react";
 import "./ContactUs.css";
+import upWaves from '../../../Assets/contactus-wave.png';
 
 const ContactUs = () => {
   return (
+    <div>
+      <img src={upWaves} alt="wavedown"/>
+    
     <div className="contact-container" id="contactUs">
+      
           <div>
             <p className="headings contact-heading">CONTACT US</p>
           </div>
@@ -34,6 +39,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
+      </div>
       </div>
   );
 };
