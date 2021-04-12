@@ -1,5 +1,6 @@
 .about-container {
     width: 100%;
+    height: 140vh;
     color: #fff;
     background-image: url("../../../Assets/About-Bg.png");
     background-repeat: no-repeat;
@@ -49,6 +50,7 @@
 @media only screen and (max-width: 550px) {
     .about-container {
         padding-top: 30%;
+        height: auto;
     }
 }
 @media only screen and (max-width: 350px) {
