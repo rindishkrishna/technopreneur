@@ -6,8 +6,13 @@
     background-repeat: no-repeat;
     background-size:cover;    
     padding-top: 15%;
+     display: flex;
+    
+    justify-content: center;
   }
   
+ 
+
 .col {
     display: flex;
     flex-direction: column;

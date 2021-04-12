@@ -9,12 +9,12 @@ const ProblemStatement = () => {
         <h3 className="heading">Tracks</h3>
         <div>
           <p className="track-text">
-          ⚪ Open Innovation
+            ⚪ Post Pandemic Relief
           <br /><br />
           ⚪ Women Empowerment 
           <br /><br />
-          ⚪ Post Pandemic Relief
-          </p>
+         ⚪ Open Innovation
+         </p>
         </div>
       </div>
       <div className="col m4 track-img-div">
