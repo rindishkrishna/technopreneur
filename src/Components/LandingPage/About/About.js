@@ -4,7 +4,7 @@ import upWaves from '../../../Assets/Events-Wave.png'
 
 export default function AboutComponent(props){
     return(
-        <div className="about">
+        <div className="about" id="about">
         <div className = "col about-container">
             
             <div className="main-section">

@@ -59,7 +59,7 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   .partner-content {
     width: 100%;
     margin-left: auto;
@@ -69,5 +69,12 @@
     width: 7rem;
     height: 3.5rem;
     object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .sponsor-container {
+    padding-top: 25%;
+    padding-bottom: 25%;
   }
 }

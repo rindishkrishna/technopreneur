@@ -48,6 +48,9 @@
   }
   
   @media only screen and (max-width : 450px) {
+    .top-container {
+        height: 100%;
+    }
     .social_media {
         font-size: 24px;
     }
