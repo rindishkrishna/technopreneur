@@ -35,18 +35,6 @@
   -webkit-text-fill-color: transparent;
   z-index: 100;
 }
-.social_links {
-    margin-left: 42%;
-    margin-top: 30px;
-    display: contents;
-}
-
-.media_link {
-    color: red;
-    padding: 5px;
-    cursor: pointer;
-    font-size: 45px;
-}
 .vl {
     background-image: -webkit-linear-gradient(#002874, #cc0045);
     width: 3px;
@@ -99,20 +87,12 @@
     }
 }
 @media only screen and (max-width: 650px){
-    .media_link {
-        font-size: 35px;
-    }
-
     .cu-contents {
         font-size: 28px;
     }
 }
 
 @media only screen and (max-width: 450px){
-    .media_link {
-        font-size: 28px;
-    }
-
     .cu-contents {
         font-size: 24px;
     }
@@ -132,10 +112,6 @@
     }
 }
 @media only screen and (max-width: 400px){
-    .media_link {
-        font-size: 28px;
-    }
-
     .cu-contents {
         font-size: 24px;
     }
