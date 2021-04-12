@@ -5,15 +5,36 @@
   right: auto;
 }
 
-.prize-div {
-  text-align: center;
-
+.row .col.m12 {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 
+.prize-div {
+  text-align: center;
+}
+
+
 .prize-img {
-  width: 140px;
+  width: 180px;
   margin: auto;
   margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.prize-img-aws {
+  width: 120px;
+  margin: auto;
+  margin-top: 35px;
+  padding-bottom: 10px;
+}
+
+.prize-img-polygon {
+  width: 180px;
+  margin: auto;
+  margin-top: 70px;
   padding-bottom: 20px;
 }
 
@@ -34,7 +55,16 @@
     font-size: 35px;
     text-align: center
   }
+  .prize-div {
+    padding: 5px;
+  }
   .prize-img {
+    width: 70%;
+  }
+  .prize-img-aws {
+    width: 60%;
+  }
+  .prize-img-polygon {
     width: 70%;
   }
 }
