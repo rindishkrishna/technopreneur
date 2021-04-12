@@ -52,9 +52,6 @@
   .sponsor-container {
     background-position: center;
   }
-  .sponsor-heading {
-    font-size: 35px;
-  }
   .partner-content {
     width: 100%;
     margin-left: auto;
@@ -63,9 +60,6 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .sponsor-heading {
-    font-size: 28px;
-  }
   .partner-content {
     width: 100%;
     margin-left: auto;
