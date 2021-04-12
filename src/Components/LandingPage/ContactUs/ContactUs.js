@@ -12,8 +12,9 @@ const ContactUs = () => {
                 <p className="iedc-name">Innovation and Entrepreneurship Development Cell</p>
                 <p className="iedc-add">Govt. Model Engineering College <br/>Thrikkakara, Kochi, Kerala 682021 <br/>iedc@mec.ac.in</p>
             </div>
-            <div className= "vl"/>
+            <div className= "vl vl-main"/>
             <div className="contacts">
+              <div className= "vl vl-contact"/>
               <div className="contact">
                 <p className="c-name">
                   Allen Joseph
