@@ -18,7 +18,7 @@ const TopSection = () => {
     <div className="row container" id="home">
       <div className="col m8">
         <h3 className="top-heading">
-          <img src={ logo } className="hacklogo" />
+          <img src={ logo } className="hacklogo"  alt="TechnoHack"/>
         </h3>
         <div className="content-div">
           <p className="text">

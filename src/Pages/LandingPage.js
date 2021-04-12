@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import TopSection from "../Components/LandingPage/TopSection/TopSection";
 import Sponsors from "../Components/LandingPage/Sponsors/Sponsors";
 import Events from "../Components/LandingPage/Events/Events";
