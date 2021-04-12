@@ -5,10 +5,6 @@ import cognizant from "../../../Assets/sponsors/Cognizant.png";
 import tcs from "../../../Assets/sponsors/tcs.png";
 import ebay from "../../../Assets/sponsors/ebay.png";
 import itc from "../../../Assets/sponsors/ITC.png";
-import tick from "../../../Assets/Saly-26.png";
-import downWave from "../../../Assets/Vector-3.png";
-import upWave from "../../../Assets/Vector-2.png";
-import upWaves from "../../../Assets/Group-5.png";
 import "./Sponsors.css";
 
 const Sponsors = () => {

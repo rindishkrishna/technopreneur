@@ -2,22 +2,11 @@
   font-size: 40px;
 }
 
-.first,
-.second,
-.third {
-  margin: 40px 30px;
-}
-
 .faq-text {
   margin-top: 20px;
 }
 
 @media (max-width: 600px) {
-  .first,
-  .second,
-  .third {
-    margin: 0px 0px;
-  }
   .faqs {
     text-align: center;
   }

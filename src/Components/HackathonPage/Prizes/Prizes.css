@@ -17,22 +17,9 @@
   padding-bottom: 20px;
 }
 
-.offset {
-  margin-top: 220px;
-}
-
-.prize-heading {
-  margin-left: -10px;
-  font-size: 40px;
-}
-
 @media (max-width: 600px) {
   .prize-container {
     padding-bottom: 40px;
-  }
-  .prize-heading {
-    font-size: 35px;
-    text-align: center
   }
   .prize-img {
     width: 70%;

@@ -1,14 +1,14 @@
 import React from "react";
-import problemImg from "../../../Assets/Frame.png";
-import "./Problemstatement.css";
+import questionImg from "../../../Assets/Question.png";
+import "./Tracks.css";
 
 const ProblemStatement = () => {
   return (
-    <div className="row container" id="problemstatement">
+    <div className="row container" id="tracks">
       <div className="col m8">
         <h3 className="heading">Tracks</h3>
-        <div className="problem-content-div">
-          <p className="problem-text">
+        <div>
+          <p className="track-text">
           ⚪ Open Innovation
           <br /><br />
           ⚪ Women Empowerment 
@@ -17,11 +17,11 @@ const ProblemStatement = () => {
           </p>
         </div>
       </div>
-      <div className="col m4 problem-img-div">
+      <div className="col m4 track-img-div">
         <img
-          src={problemImg}
-          className="problem-img responsive-img"
-          alt="problem-vector"
+          src={questionImg}
+          className="track-img responsive-img"
+          alt="track-vector"
         />
       </div>
     </div>
