@@ -21,7 +21,8 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5%;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 10px;
 }
 .eventImage {
@@ -49,7 +50,7 @@
 }
 .eventButton {
   /* max-width: 800px; */
-  width: 100%;
+  width: 70%;
   padding: 10px;
 }
 .button {
